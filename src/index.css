@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 220vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/SL_112119_25250_48.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 1250px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #e6b7eca1;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+th, td {
+    color: #d2bcd2;
+    padding: 8px 5px;
+}
+
+h1 {
+    color: #1c0711;
+}
+
+.add_link {
+    color: #171017;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1.5px solid;
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 5px;
+    background-color: darkblue;
+}
+
+.read_link {
+    background-color: #057894;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.edit_link {
+    background-color: #88bb41;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.delete_link {
+    background-color: red;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
